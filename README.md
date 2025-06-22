@@ -63,21 +63,19 @@ http://localhost:5000
 ---
 
 ### 🗂️ Project Structure
+
 Real-Time-Location-Tracker/
-│
-├── public/                   # Static assets served to the browser
-│   ├── js/
-│   │   └── main.js           # Frontend JavaScript (Socket.IO + Leaflet logic)
-│   └── css/
-│       └── style.css         # Custom styling
-│
+├── public/ # Static assets served to the browser
+│ ├── js/
+│ │ └── main.js # Frontend JavaScript (Socket.IO + Leaflet logic)
+│ └── css/
+│ └── style.css # Custom styling
 ├── views/
-│   └── index.ejs             # Main HTML view rendered by Express
-│
-├── .gitignore                # Ignore node_modules, .env, etc.
-├── package.json              # Node.js project metadata
-├── server.js                 # Main backend server (Express + Socket.IO)
-└── README.md         
+│ └── index.ejs # Main HTML view rendered by Express
+├── .gitignore # Ignore node_modules, .env, etc.
+├── package.json # Node.js project metadata
+├── server.js # Main backend server (Express + Socket.IO)
+└── README.md
 
 
 
