@@ -10,7 +10,7 @@ A real-time device location tracker built using **Node.js**, **Socket.IO**, and 
 
 ## 🎥 Preview
 
-![Live Location Tracker Demo](https://user-images.githubusercontent.com/your-gif-url/location-tracker-demo.gif)
+![Live Location Tracker Demo] https://miro.medium.com/v2/resize:fit:828/format:webp/1*033cnsS3JIBh_Z847oqFSw.gif
 
 > 📌 Tip: To see real-time tracking, open the app in two tabs or devices and allow location access.
 
@@ -77,14 +77,7 @@ Real-Time-Location-Tracker/
 ├── .gitignore                # Ignore node_modules, .env, etc.
 ├── package.json              # Node.js project metadata
 ├── server.js                 # Main backend server (Express + Socket.IO)
-└── README.md                 # Project documentation
-
-
-## 📸 Screenshots
-
-| Mobile View | Desktop View |
-|-------------|--------------|
-| ![Mobile View](https://raw.githubusercontent.com/abhirockzz/sockets-demo/master/assets/location.gif) | ![Desktop View](https://raw.githubusercontent.com/abhirockzz/sockets-demo/master/assets/location.gif) |
+└── README.md         
 
 
 
