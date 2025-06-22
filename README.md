@@ -41,37 +41,50 @@ A real-time device location tracker built using **Node.js**, **Socket.IO**, and 
 ## 🚀 Getting Started
 
 ### 1. Clone the repo
-```bash
+
 git clone https://github.com/your-username/location-tracker.git
 cd location-tracker
 
-2. Install dependencies
-bash
-Copy
-Edit
+---
+
+### 2. Install dependencies
 npm install
-3. Start the server
-bash
-Copy
-Edit
+
+---
+
+### 3. Start the server
 node app.js
-4. Open in browser
-arduino
-Copy
-Edit
+
+---
+
+### 4. Open in browser
 http://localhost:5000
-🗂️ Project Structure
-graphql
-Copy
-Edit
-.
-├── app.js               # Express + Socket.IO server
+
+---
+
+### 🗂️ Project Structure
+Real-Time-Location-Tracker/
+│
+├── public/                   # Static assets served to the browser
+│   ├── js/
+│   │   └── main.js           # Frontend JavaScript (Socket.IO + Leaflet logic)
+│   └── css/
+│       └── style.css         # Custom styling
+│
 ├── views/
-│   └── index.ejs        # Main HTML view with map
-├── public/
-│   └── script.js        # Client-side JS for map and socket
-├── README.md
-📸 Screenshots
-Mobile View	Desktop View
+│   └── index.ejs             # Main HTML view rendered by Express
+│
+├── .gitignore                # Ignore node_modules, .env, etc.
+├── package.json              # Node.js project metadata
+├── server.js                 # Main backend server (Express + Socket.IO)
+└── README.md                 # Project documentation
+
+
+## 📸 Screenshots
+
+| Mobile View | Desktop View |
+|-------------|--------------|
+| ![Mobile View](https://raw.githubusercontent.com/abhirockzz/sockets-demo/master/assets/location.gif) | ![Desktop View](https://raw.githubusercontent.com/abhirockzz/sockets-demo/master/assets/location.gif) |
+
 
 
