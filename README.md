@@ -44,3 +44,34 @@ A real-time device location tracker built using **Node.js**, **Socket.IO**, and 
 ```bash
 git clone https://github.com/your-username/location-tracker.git
 cd location-tracker
+
+2. Install dependencies
+bash
+Copy
+Edit
+npm install
+3. Start the server
+bash
+Copy
+Edit
+node app.js
+4. Open in browser
+arduino
+Copy
+Edit
+http://localhost:5000
+🗂️ Project Structure
+graphql
+Copy
+Edit
+.
+├── app.js               # Express + Socket.IO server
+├── views/
+│   └── index.ejs        # Main HTML view with map
+├── public/
+│   └── script.js        # Client-side JS for map and socket
+├── README.md
+📸 Screenshots
+Mobile View	Desktop View
+
+
