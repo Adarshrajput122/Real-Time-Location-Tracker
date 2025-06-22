@@ -79,5 +79,11 @@ Real-Time-Location-Tracker/
 ├── server.js                 # Main backend server (Express + Socket.IO)
 └── README.md         
 
+## 📸 Screenshots
+
+| Mobile View | Desktop View |
+|-------------|--------------|
+| ![Mobile View](https://miro.medium.com/v2/resize:fit:828/format:webp/1*033cnsS3JIBh_Z847oqFSw.gif) | ![Desktop View](https://miro.medium.com/v2/resize:fit:828/format:webp/1*033cnsS3JIBh_Z847oqFSw.gif) |
+
 
 
